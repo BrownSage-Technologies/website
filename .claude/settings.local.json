@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:\\\\Users\\\\Hillary Odinchefu WS.DESKTOP-CF4QLGF\\\\Documents\\\\Personal\\\\brownsage\" && mv index.html.new index.html && wc -l index.html styles.css)",
+      "Bash(cygpath -w /tmp)",
+      "Bash(python3 -c ' *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Hillary Odinchefu WS.DESKTOP-CF4QLGF\\Documents\\Personal\\brownsage"
+    ]
+  }
+}
