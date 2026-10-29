@@ -1,5 +1,6 @@
 import { seo, site } from "../src/content";
 import { SiteShell } from "../src/components/SiteShell";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata = {
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <SiteShell>{children}</SiteShell>
+        <Analytics />
         {site.analyticsToken ? (
           <script
             defer
